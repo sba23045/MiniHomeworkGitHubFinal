@@ -16,6 +16,10 @@ public class MiniHomeworkGitHubFinal {
     public static void main(String[] args) {
         System.out.println("Hello, GitHub!");
         System.out.println("Hello, GitHub is incredible!");
+        
+        Calculator calculator = new Calculator();
+        int result = calculator.add(5, 7);
+        System.out.println("Result: " + result);
     }
     
 }
